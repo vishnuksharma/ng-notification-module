@@ -1,0 +1,7 @@
+<div class="notification toast-bottom-right toast-container">
+    <div *ngFor="let alert of alerts" class="{{ cssClass(alert) }} alert-dismissable toast">
+        <div class="toast-title">{{alert.title}}</div>
+        <div class="toast-message">{{alert.message}}</div>
+        <a class="close" (click)="removeAlert(alert)">&times;</a>
+    </div>
+</div>
