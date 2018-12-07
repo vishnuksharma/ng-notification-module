@@ -22,7 +22,7 @@ After some logs in the console, you got the generated documentation in the ./doc
 
 Run `ng test` to execute the unit tests via [Karma].
 
-## Running end-to-end tests
+## Design Image
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor].
+![Notification design](design/notification-design.jpg?raw=true "Title")
 
