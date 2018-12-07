@@ -12,7 +12,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Generate Documentation
 Install it with npm : `npm i -g @compodoc/compodoc`
+
 Run `npm run doc`
+
 After some logs in the console, you got the generated documentation in the ./documentation/ folder at the root of your project folder.
 
 
