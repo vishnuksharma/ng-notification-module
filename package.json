@@ -7,7 +7,7 @@
     "serve": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "doc": "compodoc -p src/tsconfig.app.json",
+    "doc": "compodoc -p src/tsconfig.app.json & compodoc src -s --open",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
